@@ -1,0 +1,6 @@
+<h1>{{ title }}</h1>
+
+<div *ngFor="let patient of patients">
+  <h2>{{ patient.name }} ({{ patient.age }} years old)</h2>
+  <p>Diagnosis: {{ patient.diagnosis }}</p>
+</div>
